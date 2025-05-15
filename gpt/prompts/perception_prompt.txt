@@ -1,0 +1,50 @@
+You are provided with an image containing field-of-view (FOV) frames from smart glasses worn by a user performing a locomotion activity, along with a spoken command issued by the user.  
+The 9 frames in the image are sampled in chronological order over a 1.5-second period, with 0.25 seconds before and 1.25 second after the command was given.
+
+🔥 To predict the locomotion activity the user is performing, think step-by-step to analyze the input and generate the required output:  
+
+👁️ Frame Analysis:
+    - Identify the primary object that is the user’s focus in the frames, along with the secondary objects observed in the scene.
+    - Examine the 9 frames in chronological order and determine whether the perspective suggests forward, upward, or downward movement.
+    - Note 1: In transitions, the previous activity may still appear in the user’s initial frames but gradually fades in later ones. Similarly, movement cues may become more apparent in the later frames than in the early ones.
+    - Note 2: 
+        •	When a person is at the top of a ladder, they might not see the ladder directly in their immediate field of view before climbing down, but only observe a high angle view.
+        •	Conversely, when at the bottom, one might initially have a full or partial view of the ladder, with the view shifting toward the base as they prepare to ascend.
+    - Note 3: 
+	    •	Vertical ladders—typically fixed in place (e.g., mounted to scaffolding or walls) with rungs arranged vertically—differ from construction ladders, which are generally free-standing or angled (such as A-frame designs) and intended for portability and repositioning.
+	    •	If the most recent memory shows the user climbing a construction ladder, they will 100% climb down the same construction ladder, and vice versa.
+	    •	Do not switch from one ladder type to another as long as the most recent memory clearly indicates the user remains on that same ladder, unless the frames explicitly show a different ladder.
+
+🗣️ Command Interpretation:  
+    - Interpret the command in the context of the frames to infer the user's intent. 
+        •	Note 1: Commands indicate what the user intends to do rather than what is currently happening. Since activities often occur in rapid succession, users may use present-tense language even if the new action has not fully commenced.
+        •	Note 2: Commands can be vague, incorrect, or misleading.
+        •	Note 3: For commands related to sitting down and standing up, the user typically sits to inspect an HVAC unit or a cabinet, then stands from the same position. Because of the nature of these tasks, these commands are generally neither vague nor discrepant.
+
+👁️ ≠ 🗣️ Discrepancy Analysis:
+    - Analyze the discrepancy between the frames and the given command, and assign a discrepancy score from 0 to 1, indicating the degree of mismatch.
+
+🚨 SAFETY ANALYSIS (Based on Short-Term Memory Context):
+    👉 Before making a prediction, perform the following checks using the memory context:
+        1️⃣ Step 1: Retrieve the most recent locomotion activity.
+        2️⃣ Step 2: Compare the transition with allowed safe transitions.
+
+    ✅ Examples of safe transitions:
+        - 'Level-Ground Navigation' to 'Stair Ascension'
+        - 'Stepping Over' to 'Level-Ground Navigation'
+        - 'Ladder Up Climbing' to 'Ladder Down Climbing'
+            •   Note: If the ladder is a vertical ladder, the transition from 'Ladder Up Climbing' to 'Level-Ground Navigation' is only safe IF a platform or a safe surface is visible.
+    ❌ Examples of unsafe transitions:
+        - 'Ladder Up Climbing' to 'Standing Up' or 'Sitting Down' or 'Stair Ascension' etc.
+        - 'Level-Ground Navigation' to 'Level-Ground Navigation' near a hazard is extremely unsafe:
+            •   Overhead hazard: Ignores low clearance, risking head injury.
+            •   Obstacle in the path: Fails to account for the obstruction, risking collision or loss of balance.
+
+⛔️ ⛔️ ⛔️ CAUTION: COMMANDS CAN BE VAGUE, INCORRECT, OR MISLEADING. DO NOT TRUST THE COMMAND ALONE. ALWAYS CONSIDER THE VISUAL EVIDENCE OR THE MEMORY CONTEXT BEFORE MAKING A PREDICTION.
+
+
+The command is: 
+📌 "{command}"
+
+Additionally, you are given a memory context, which is a summary of recent activities (starting from the most recent):  
+📌 {stm_summary}

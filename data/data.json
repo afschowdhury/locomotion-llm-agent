@@ -1,0 +1,1810 @@
+[
+  {
+    "id": "03fb57bc-733b-4f98-983d-02d3afd47df9",
+    "timestamp_start": "00:01:20.500",
+    "timestamp_end": "00:01:21.330",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "abdcfda4-62d3-4adf-9248-300687a748db",
+    "timestamp_start": "00:01:28.360",
+    "timestamp_end": "00:01:29.920",
+    "command": "I wanna climb this vertical ladder.",
+    "command_type": "Clear",
+    "locomotion_mode": "Vertical Ladder Up Climbing"
+  },
+  {
+    "id": "24b1d13c-0a29-44c9-b5e6-e076d1600dec",
+    "timestamp_start": "00:01:47.438",
+    "timestamp_end": "00:01:48.833",
+    "command": "I'm going to climb down the ladder.",
+    "command_type": "Vague",
+    "locomotion_mode": "Vertical Ladder Down Climbing"
+  },
+  {
+    "id": "7a815382-5279-46d6-bcc2-78e233112ff7",
+    "timestamp_start": "00:02:00.933",
+    "timestamp_end": "00:02:01.948",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "bd30d331-faed-4170-9ae0-085dd5854b10",
+    "timestamp_start": "00:02:05.312",
+    "timestamp_end": "00:02:07.972",
+    "command": "I'm climbing this construction ladder.",
+    "command_type": "Clear",
+    "locomotion_mode": "Construction Ladder Up Climbing"
+  },
+  {
+    "id": "3905f61c-d698-47b1-be1a-b46a814baea3",
+    "timestamp_start": "00:02:21.675",
+    "timestamp_end": "00:02:22.849",
+    "command": "I'm walking forward.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Construction Ladder Down Climbing"
+  },
+  {
+    "id": "862a20a5-70ce-4498-b73c-23223195029d",
+    "timestamp_start": "00:02:30.552",
+    "timestamp_end": "00:02:31.726",
+    "command": "I'm moving.",
+    "command_type": "Vague",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "00f85fa5-2a54-42a3-928d-4349822d400d",
+    "timestamp_start": "00:02:44.632",
+    "timestamp_end": "00:02:45.786",
+    "command": "I'm heading up.",
+    "command_type": "Vague",
+    "locomotion_mode": "Stair Ascension"
+  },
+  {
+    "id": "9cfa6e59-0830-47d4-b214-068532ffef45",
+    "timestamp_start": "00:02:55.491",
+    "timestamp_end": "00:03:00.180",
+    "command": "I'm walking on this metal grate.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "856ed509-30d5-41b8-97de-aa70ee7da6b1",
+    "timestamp_start": "00:03:18.410",
+    "timestamp_end": "00:03:19.852",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "c920fc08-5d83-4c0b-9560-8681779cd72d",
+    "timestamp_start": "00:03:21.877",
+    "timestamp_end": "00:03:23.107",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "cfe7741e-c308-48ea-a174-4c14f1892719",
+    "timestamp_start": "00:03:28.483",
+    "timestamp_end": "00:03:29.828",
+    "command": "I'm sitting down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Sitting Down"
+  },
+  {
+    "id": "eb1b6a82-63be-40ff-ae86-b16c589ec242",
+    "timestamp_start": "00:03:38.278",
+    "timestamp_end": "00:03:38.951",
+    "command": "Standing up.",
+    "command_type": "Clear",
+    "locomotion_mode": "Standing Up"
+  },
+  {
+    "id": "98cceb52-4660-42a8-aaaf-d45a932ed454",
+    "timestamp_start": "00:03:41.164",
+    "timestamp_end": "00:03:42.221",
+    "command": "I'm moving forward.",
+    "command_type": "Vague",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "6cecc6a3-2df9-4261-b024-ddb75d83261e",
+    "timestamp_start": "00:03:45.713",
+    "timestamp_end": "00:03:46.934",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "bf29c862-c70f-4d86-8607-8bc510bf1887",
+    "timestamp_start": "00:03:50.475",
+    "timestamp_end": "00:03:51.713",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "e1701492-5ea2-45da-a54e-456959d318e5",
+    "timestamp_start": "00:03:53.680",
+    "timestamp_end": "00:03:56.212",
+    "command": "I'm stepping over these pipes.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stepping over Pipe"
+  },
+  {
+    "id": "540f65f2-41d5-4f1e-941e-536475f86bea",
+    "timestamp_start": "00:03:57.450",
+    "timestamp_end": "00:03:58.491",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "180e3f6b-2fff-4f9e-9c1f-610b689d7b3a",
+    "timestamp_start": "00:04:00.836",
+    "timestamp_end": "00:04:02.992",
+    "command": "I'm going over this obstacle.",
+    "command_type": "Vague",
+    "locomotion_mode": "Stepping over Box"
+  },
+  {
+    "id": "1dcadba3-f4c2-4e84-bda0-155baef94d3a",
+    "timestamp_start": "00:04:05.352",
+    "timestamp_end": "00:04:06.631",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "a39313d1-88dc-49fb-aec2-8a947301de6d",
+    "timestamp_start": "00:04:07.249",
+    "timestamp_end": "00:04:08.560",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "f90aa8dc-d7b3-4ce8-b976-78ace5e76a7b",
+    "timestamp_start": "00:04:11.450",
+    "timestamp_end": "00:04:12.983",
+    "command": "I'm heading down.",
+    "command_type": "Vague",
+    "locomotion_mode": "Stair Descension"
+  },
+  {
+    "id": "5fe5ca4c-431a-4243-be78-e4b6407c318a",
+    "timestamp_start": "00:04:22.852",
+    "timestamp_end": "00:04:24.016",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "fe439af6-ad41-4b6c-aed8-c160d550f8c5",
+    "timestamp_start": "00:04:42.032",
+    "timestamp_end": "00:04:43.893",
+    "command": "I'm climbing this vertical ladder.",
+    "command_type": "Clear",
+    "locomotion_mode": "Vertical Ladder Up Climbing"
+  },
+  {
+    "id": "6f42ec74-479e-4342-9926-70e637d1ebc8",
+    "timestamp_start": "00:05:05.311",
+    "timestamp_end": "00:05:06.320",
+    "command": "I'm climbing down this vertical ladder.",
+    "command_type": "Clear",
+    "locomotion_mode": "Vertical Ladder Down Climbing"
+  },
+  {
+    "id": "a046b794-463f-4dec-a3fc-676c2a416dc8",
+    "timestamp_start": "00:05:17.254",
+    "timestamp_end": "00:05:18.418",
+    "command": "I'm walking on the ground.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "fa814eb4-2ff2-4197-84dc-6d428d362a9a",
+    "timestamp_start": "00:05:22.114",
+    "timestamp_end": "00:05:25.450",
+    "command": "I'm climbing this A-shaped ladder.",
+    "command_type": "Clear",
+    "locomotion_mode": "Construction Ladder Up Climbing"
+  },
+  {
+    "id": "1fed6b6f-0ec6-4d84-ab6c-08b65a7739a3",
+    "timestamp_start": "00:05:46.737",
+    "timestamp_end": "00:05:47.745",
+    "command": "I'm climbing down this construction ladder.",
+    "command_type": "Clear",
+    "locomotion_mode": "Construction Ladder Down Climbing"
+  },
+  {
+    "id": "30f70309-6334-4090-97af-5d85f8ef0d48",
+    "timestamp_start": "00:05:54.614",
+    "timestamp_end": "00:05:55.901",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "dd65741c-5f45-483a-b343-c72ce43333cc",
+    "timestamp_start": "00:06:08.172",
+    "timestamp_end": "00:06:09.483",
+    "command": "I'm goin up.",
+    "command_type": "Vague",
+    "locomotion_mode": "Stair Ascension"
+  },
+  {
+    "id": "85d18b21-3989-4f7e-ab89-3d69fc53dcf1",
+    "timestamp_start": "00:06:18.762",
+    "timestamp_end": "00:06:19.902",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "47964800-7dfc-45d4-a26e-df73afb818ef",
+    "timestamp_start": "00:06:23.196",
+    "timestamp_end": "00:06:24.180",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "1eaab76a-99a2-4bba-a762-19abeb091310",
+    "timestamp_start": "00:06:25.208",
+    "timestamp_end": "00:06:26.421",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "b6fa03df-927b-4ec9-b327-e517ba47cbf8",
+    "timestamp_start": "00:06:27.565",
+    "timestamp_end": "00:06:29.319",
+    "command": "I'm stepping over something.",
+    "command_type": "Vague",
+    "locomotion_mode": "Stepping over Box"
+  },
+  {
+    "id": "740b021a-7942-4b00-ba59-ff6270178e7f",
+    "timestamp_start": "00:06:30.279",
+    "timestamp_end": "00:06:31.156",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "dc301aa6-96a2-4395-89a6-16b7e1fd279f",
+    "timestamp_start": "00:06:33.024",
+    "timestamp_end": "00:06:34.885",
+    "command": "I'm stepping over these pipes.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stepping over Pipe"
+  },
+  {
+    "id": "eda602c6-74b0-4e7e-9dc7-d0b98215f673",
+    "timestamp_start": "00:06:35.852",
+    "timestamp_end": "00:06:37.221",
+    "command": "I'm moving again.",
+    "command_type": "Vague",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "e332fbf6-ca85-427a-9054-265d6dad69a4",
+    "timestamp_start": "00:06:38.942",
+    "timestamp_end": "00:06:40.344",
+    "command": "I'm bending down again.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "be35df5d-6810-4994-948c-a4d7a82e797e",
+    "timestamp_start": "00:06:42.656",
+    "timestamp_end": "00:06:43.762",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "072cbde8-4782-49e4-91fb-2aaaa890da23",
+    "timestamp_start": "00:06:47.721",
+    "timestamp_end": "00:06:49.073",
+    "command": "I'm sitting down here.",
+    "command_type": "Clear",
+    "locomotion_mode": "Sitting Down"
+  },
+  {
+    "id": "7af7f85e-7a22-41dc-b8cf-824d3083c105",
+    "timestamp_start": "00:06:54.933",
+    "timestamp_end": "00:06:56.171",
+    "command": "I'm standing up.",
+    "command_type": "Clear",
+    "locomotion_mode": "Standing Up"
+  },
+  {
+    "id": "fbeabf25-4e99-4aa7-8c74-2bf6dd28d720",
+    "timestamp_start": "00:06:57.122",
+    "timestamp_end": "00:06:58.499",
+    "command": "I'm walking back.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "49222d09-88e0-4bde-b0b1-44501c60cfe5",
+    "timestamp_start": "00:07:02.123",
+    "timestamp_end": "00:07:04.729",
+    "command": "I'm going to move straight up.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "8cb9d9da-d068-4d97-97ab-6a7bffb2e1b6",
+    "timestamp_start": "00:07:07.319",
+    "timestamp_end": "00:07:08.253",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "8b0f5856-cce2-450a-baa3-2fbd33e17624",
+    "timestamp_start": "00:07:10.933",
+    "timestamp_end": "00:07:12.917",
+    "command": "I'm walking over these.",
+    "command_type": "Vague",
+    "locomotion_mode": "Stepping over Pipe"
+  },
+  {
+    "id": "bf2510b6-284e-4eb3-83b5-f9dedf6e52b9",
+    "timestamp_start": "00:07:14.314",
+    "timestamp_end": "00:07:15.240",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "216e208d-392e-42d2-8329-22e7afb19e5a",
+    "timestamp_start": "00:07:19.082",
+    "timestamp_end": "00:07:21.147",
+    "command": "Now, I'm getting past this one.",
+    "command_type": "Vague",
+    "locomotion_mode": "Stepping over Box"
+  },
+  {
+    "id": "2d673bfe-5e61-415b-8fa0-641f3b45bc89",
+    "timestamp_start": "00:07:22.688",
+    "timestamp_end": "00:07:23.598",
+    "command": "And I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "d7e91324-1f46-492c-a6a7-e9c1dfceddb0",
+    "timestamp_start": "00:07:25.246",
+    "timestamp_end": "00:07:26.180",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "a64cb50e-fdda-4ddd-9149-70326ac7af29",
+    "timestamp_start": "00:07:28.078",
+    "timestamp_end": "00:07:28.959",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "e4d008ce-ec9e-45d2-8c47-ef2d2e5b929e",
+    "timestamp_start": "00:07:33.139",
+    "timestamp_end": "00:07:34.459",
+    "command": "I'm going down.",
+    "command_type": "Vague",
+    "locomotion_mode": "Stair Descension"
+  },
+  {
+    "id": "7e1376c5-eda4-4053-8cab-02f778c55805",
+    "timestamp_start": "00:07:41.048",
+    "timestamp_end": "00:07:41.999",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "14a4a780-835f-4626-8df2-eacca6826ac3",
+    "timestamp_start": "00:08:00.254",
+    "timestamp_end": "00:08:02.303",
+    "command": "I'm climbing this ladder again.",
+    "command_type": "Vague",
+    "locomotion_mode": "Vertical Ladder Up Climbing"
+  },
+  {
+    "id": "3b52d06c-d9e5-4f73-a101-ede6bc1e5c9d",
+    "timestamp_start": "00:08:25.910",
+    "timestamp_end": "00:08:27.115",
+    "command": "I'm going down.",
+    "command_type": "Vague",
+    "locomotion_mode": "Vertical Ladder Down Climbing"
+  },
+  {
+    "id": "f8bcb8e3-8ce0-47fd-9e3e-ec490b9db627",
+    "timestamp_start": "00:08:36.221",
+    "timestamp_end": "00:08:38.000",
+    "command": "I'm walking on the ground.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "8269084d-6687-4889-b3c1-e1c285ebb37d",
+    "timestamp_start": "00:08:41.827",
+    "timestamp_end": "00:08:43.860",
+    "command": "I'm climbing this construction ladder.",
+    "command_type": "Clear",
+    "locomotion_mode": "Construction Ladder Up Climbing"
+  },
+  {
+    "id": "76167363-739e-4f6e-b196-c4fa64487137",
+    "timestamp_start": "00:09:01.335",
+    "timestamp_end": "00:09:02.302",
+    "command": "I'm climbing down.",
+    "command_type": "Vague",
+    "locomotion_mode": "Construction Ladder Down Climbing"
+  },
+  {
+    "id": "e0258bdb-f2de-4ad7-8c72-8eec106fce57",
+    "timestamp_start": "00:09:07.328",
+    "timestamp_end": "00:09:08.459",
+    "command": "I'm continuing forward.",
+    "command_type": "Vague",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "f1c6f439-da7d-413b-b0d0-db8a4467ddd1",
+    "timestamp_start": "00:09:20.336",
+    "timestamp_end": "00:09:21.402",
+    "command": "I'm heading upstairs.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stair Ascension"
+  },
+  {
+    "id": "9652b0ba-6444-4a27-9503-3700435b70f1",
+    "timestamp_start": "00:09:32.352",
+    "timestamp_end": "00:09:33.311",
+    "command": "I'm walking ahead.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "a285d102-d137-4b2f-b9e6-ba0a3fad274b",
+    "timestamp_start": "00:09:36.942",
+    "timestamp_end": "00:09:38.163",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "2d7e4adc-1e2d-499b-ac8e-c6c7b58beee9",
+    "timestamp_start": "00:09:39.187",
+    "timestamp_end": "00:09:40.417",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "baecb645-c6ee-4e10-a3ad-180ca7ff901b",
+    "timestamp_start": "00:09:41.614",
+    "timestamp_end": "00:09:43.614",
+    "command": "I'm going over this obstacle.",
+    "command_type": "Vague",
+    "locomotion_mode": "Stepping over Box"
+  },
+  {
+    "id": "89d97edf-0484-4d89-ab04-410ab2556d70",
+    "timestamp_start": "00:09:45.401",
+    "timestamp_end": "00:09:46.057",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "c610e241-396e-43f1-8257-c0be0327266b",
+    "timestamp_start": "00:09:53.478",
+    "timestamp_end": "00:09:54.667",
+    "command": "I'm moving upright.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "08ae3528-c7e4-41af-b719-8649d7aa3b98",
+    "timestamp_start": "00:09:56.704",
+    "timestamp_end": "00:09:57.409",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "e5eaa249-03d4-40ca-a17e-3bcbe7d7b76d",
+    "timestamp_start": "00:10:03.762",
+    "timestamp_end": "00:10:05.082",
+    "command": "I'm lowering down.",
+    "command_type": "Vague",
+    "locomotion_mode": "Sitting Down"
+  },
+  {
+    "id": "5295c9e7-3238-4224-a688-f0ffd635a6ab",
+    "timestamp_start": "00:10:09.410",
+    "timestamp_end": "00:10:10.172",
+    "command": "Standing up.",
+    "command_type": "Clear",
+    "locomotion_mode": "Standing Up"
+  },
+  {
+    "id": "99c49d9d-efb2-40ab-b08d-c99454cfe846",
+    "timestamp_start": "00:10:11.574",
+    "timestamp_end": "00:10:12.442",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "1fb60abf-fd6c-4185-a9f2-ca542a8d7709",
+    "timestamp_start": "00:10:17.958",
+    "timestamp_end": "00:10:19.294",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "9a574cd5-8ac0-471b-9a11-02467bf54dea",
+    "timestamp_start": "00:10:22.525",
+    "timestamp_end": "00:10:23.426",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "10b8ae23-3d2f-44d5-ad18-e4210b942a1e",
+    "timestamp_start": "00:10:25.860",
+    "timestamp_end": "00:10:27.745",
+    "command": "I'm stepping over these.",
+    "command_type": "Vague",
+    "locomotion_mode": "Stepping over Pipe"
+  },
+  {
+    "id": "34a4b1ee-90bb-4f42-9d77-f6a73d6418d5",
+    "timestamp_start": "00:10:29.343",
+    "timestamp_end": "00:10:30.229",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "33b1c8ce-ef6f-43ad-9878-bf266b0fd8ce",
+    "timestamp_start": "00:10:33.795",
+    "timestamp_end": "00:10:35.467",
+    "command": "I'm stepping over this box.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stepping over Box"
+  },
+  {
+    "id": "e6033c8a-5693-4136-a548-5e69c4cc6cec",
+    "timestamp_start": "00:10:37.016",
+    "timestamp_end": "00:10:38.164",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "35b61b32-4e51-484b-9678-b98c48dfbf1c",
+    "timestamp_start": "00:10:39.077",
+    "timestamp_end": "00:10:42.114",
+    "command": "There's an overhead and I'll bend down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "cd90b1f5-a1df-45f5-9576-4d45a4e074b0",
+    "timestamp_start": "00:10:44.008",
+    "timestamp_end": "00:10:45.385",
+    "command": "I'll walk again.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "059c8d7e-8431-43a6-a2c1-0638cc285d40",
+    "timestamp_start": "00:10:48.467",
+    "timestamp_end": "00:10:49.893",
+    "command": "I'm stepping over.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Stair Descension"
+  },
+  {
+    "id": "d2e51d4b-168d-4258-8563-45cf13617847",
+    "timestamp_start": "00:10:57.459",
+    "timestamp_end": "00:10:58.541",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "390375d5-6b66-4b59-bd71-ec5fb21d7f6a",
+    "timestamp_start": "00:11:12.573",
+    "timestamp_end": "00:11:14.483",
+    "command": "I'm climbing this ladder.",
+    "command_type": "Vague",
+    "locomotion_mode": "Construction Ladder Up Climbing"
+  },
+  {
+    "id": "b66079e8-3c2b-4ac8-9225-91e0410b0d86",
+    "timestamp_start": "00:11:34.754",
+    "timestamp_end": "00:11:35.950",
+    "command": "I'm climbing up.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Construction Ladder Down Climbing"
+  },
+  {
+    "id": "4587a0df-fa51-4730-b5b1-8173e67b289f",
+    "timestamp_start": "00:11:40.762",
+    "timestamp_end": "00:11:43.270",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "e6532140-751f-4519-9911-c9e80b28f8e9",
+    "timestamp_start": "00:11:48.073",
+    "timestamp_end": "00:11:50.172",
+    "command": "I'm going to climb this ladder.",
+    "command_type": "Vague",
+    "locomotion_mode": "Vertical Ladder Up Climbing"
+  },
+  {
+    "id": "cc7ab431-26cc-4cb5-a72e-aea93cf343b6",
+    "timestamp_start": "00:12:18.245",
+    "timestamp_end": "00:12:19.024",
+    "command": "I'm climbing down.",
+    "command_type": "Vague",
+    "locomotion_mode": "Vertical Ladder Down Climbing"
+  },
+  {
+    "id": "c879dcb1-e66a-49cd-a2ab-3f00fe5fad4c",
+    "timestamp_start": "00:12:28.746",
+    "timestamp_end": "00:12:29.950",
+    "command": "I'm walking on the ground.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "92b043f7-ba83-445e-9003-f67e59f43ead",
+    "timestamp_start": "00:12:50.770",
+    "timestamp_end": "00:12:52.754",
+    "command": "I'm climbing this vertical ladder.",
+    "command_type": "Clear",
+    "locomotion_mode": "Vertical Ladder Up Climbing"
+  },
+  {
+    "id": "82a2eec4-aea4-4990-b9e4-fde8f3259435",
+    "timestamp_start": "00:13:13.197",
+    "timestamp_end": "00:13:17.180",
+    "command": "I'm on the mechanical mezzanine and I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "11b0529d-3243-4b76-bfc1-d4ff982100e2",
+    "timestamp_start": "00:13:18.164",
+    "timestamp_end": "00:13:19.205",
+    "command": "I'll get down.",
+    "command_type": "Vague",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "9c93a1b9-d75a-4fb3-bdc4-c73950fbde49",
+    "timestamp_start": "00:13:22.688",
+    "timestamp_end": "00:13:23.548",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "dc6cc648-a608-4a9f-842a-d68b5fa28223",
+    "timestamp_start": "00:13:30.155",
+    "timestamp_end": "00:13:32.106",
+    "command": "I'm sitting down to inspect this.",
+    "command_type": "Clear",
+    "locomotion_mode": "Sitting Down"
+  },
+  {
+    "id": "82991876-8d65-4c7d-9cbf-f6f56fa36fdf",
+    "timestamp_start": "00:13:45.983",
+    "timestamp_end": "00:13:47.000",
+    "command": "I'm standing up.",
+    "command_type": "Clear",
+    "locomotion_mode": "Standing Up"
+  },
+  {
+    "id": "087bc51e-d607-4950-92fb-cbaefdc120f7",
+    "timestamp_start": "00:13:48.409",
+    "timestamp_end": "00:13:49.573",
+    "command": "I'm heading back.",
+    "command_type": "Vague",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "2fe452e2-d287-4f4b-addb-2ab22f55c0bf",
+    "timestamp_start": "00:13:55.877",
+    "timestamp_end": "00:13:56.918",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "9d0d6a2f-6ea8-4658-9ff1-0d1a336c2ada",
+    "timestamp_start": "00:13:59.811",
+    "timestamp_end": "00:14:00.958",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "a29e95d1-72cf-47eb-b83b-4082bd5e327c",
+    "timestamp_start": "00:14:03.951",
+    "timestamp_end": "00:14:07.729",
+    "command": "I'm going to climb down this vertical ladder again.",
+    "command_type": "Clear",
+    "locomotion_mode": "Vertical Ladder Down Climbing"
+  },
+  {
+    "id": "fdb50c0a-7612-4f36-b9a8-345ee0971708",
+    "timestamp_start": "00:14:22.147",
+    "timestamp_end": "00:14:22.918",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "906bd18c-edcd-4a04-a203-ff891abd9965",
+    "timestamp_start": "00:14:35.998",
+    "timestamp_end": "00:14:37.416",
+    "command": "I'm going up again.",
+    "command_type": "Vague",
+    "locomotion_mode": "Stair Ascension"
+  },
+  {
+    "id": "fe27a1d2-243c-485f-9f3c-5829802eb291",
+    "timestamp_start": "00:14:44.983",
+    "timestamp_end": "00:14:45.811",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "065768bb-afda-4c0a-9f01-d4496771d164",
+    "timestamp_start": "00:14:49.500",
+    "timestamp_end": "00:14:50.672",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "42d5c3e3-9296-4592-a64c-c5d3119d5d06",
+    "timestamp_start": "00:14:52.425",
+    "timestamp_end": "00:14:53.524",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "b0e37911-cb16-4de2-b536-b9c78e4785cf",
+    "timestamp_start": "00:14:55.942",
+    "timestamp_end": "00:14:58.942",
+    "command": "I'm going to walk on the ground.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Stepping over Box"
+  },
+  {
+    "id": "3295d786-d322-43e7-841e-d14e8211eed0",
+    "timestamp_start": "00:15:00.188",
+    "timestamp_end": "00:15:01.131",
+    "command": "And I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "4592b74a-23b3-4c88-a45c-28fa740057fd",
+    "timestamp_start": "00:15:04.794",
+    "timestamp_end": "00:15:06.794",
+    "command": "I'll walk over these pipes.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stepping over Pipe"
+  },
+  {
+    "id": "c88b6f08-bb55-40fa-ad48-fa970c4098a0",
+    "timestamp_start": "00:15:07.999",
+    "timestamp_end": "00:15:09.147",
+    "command": "And I'll walk again.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "2a1d27bf-9807-4bd3-acea-eb292e16c670",
+    "timestamp_start": "00:15:10.811",
+    "timestamp_end": "00:15:11.770",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "7546e0fa-744e-469d-b62e-3284fbe99979",
+    "timestamp_start": "00:15:14.270",
+    "timestamp_end": "00:15:15.098",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "dabf2efc-0608-45da-bab8-997a15c25f9b",
+    "timestamp_start": "00:15:21.934",
+    "timestamp_end": "00:15:23.204",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "396beb97-5416-43e3-aa3c-b3811f5feb84",
+    "timestamp_start": "00:15:32.197",
+    "timestamp_end": "00:15:33.393",
+    "command": "I'm lowering down.",
+    "command_type": "Vague",
+    "locomotion_mode": "Sitting Down"
+  },
+  {
+    "id": "e5671701-c573-408e-ad7f-2dac63c6daec",
+    "timestamp_start": "00:15:44.417",
+    "timestamp_end": "00:15:45.311",
+    "command": "Standing up.",
+    "command_type": "Clear",
+    "locomotion_mode": "Standing Up"
+  },
+  {
+    "id": "bce9ef3f-0849-47ea-a426-f9bdc529f449",
+    "timestamp_start": "00:15:46.884",
+    "timestamp_end": "00:15:48.048",
+    "command": "I'm walking back.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "954a37bc-d52d-4102-92e5-d5c5fd93eaaf",
+    "timestamp_start": "00:15:49.347",
+    "timestamp_end": "00:15:50.478",
+    "command": "I'm lowering down.",
+    "command_type": "Vague",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "1b0a2747-fc2d-4a92-b3cc-9f30e054b1dd",
+    "timestamp_start": "00:15:52.303",
+    "timestamp_end": "00:15:53.311",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "b14a19d3-3072-472f-a8b9-1d310b9a5801",
+    "timestamp_start": "00:16:00.212",
+    "timestamp_end": "00:16:01.311",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "fa2cd36d-f2d0-4551-9638-5844ac708811",
+    "timestamp_start": "00:16:05.393",
+    "timestamp_end": "00:16:07.196",
+    "command": "I'll step over these pipes.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stepping over Pipe"
+  },
+  {
+    "id": "60b34a98-8b89-49fa-8c97-51fd88f154b8",
+    "timestamp_start": "00:16:08.819",
+    "timestamp_end": "00:16:09.532",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "08404f3b-23ae-42f9-9f9d-d7da9743a6cf",
+    "timestamp_start": "00:16:13.409",
+    "timestamp_end": "00:16:14.950",
+    "command": "I'll step over this box.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stepping over Box"
+  },
+  {
+    "id": "6ddf2085-0ecd-4e4b-8a0c-b7e60ce5bd26",
+    "timestamp_start": "00:16:16.950",
+    "timestamp_end": "00:16:17.843",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "dbf2198a-3b3b-4cf9-991c-b0f10bb82ec4",
+    "timestamp_start": "00:16:19.344",
+    "timestamp_end": "00:16:20.385",
+    "command": "I'll continue walking straight.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "a3b7e431-ab3c-48fd-aefb-224a28636201",
+    "timestamp_start": "00:16:24.065",
+    "timestamp_end": "00:16:24.942",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "a9573c34-c851-4eaa-beea-824686e6c624",
+    "timestamp_start": "00:16:29.458",
+    "timestamp_end": "00:16:30.696",
+    "command": "I'll walk on the ground.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Stair Descension"
+  },
+  {
+    "id": "b80f3867-9aeb-45c0-b627-e1cd6fd287e9",
+    "timestamp_start": "00:16:40.303",
+    "timestamp_end": "00:16:41.163",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "084ffc7e-e790-4b75-8963-92ddbb61ea7e",
+    "timestamp_start": "00:16:57.738",
+    "timestamp_end": "00:16:59.279",
+    "command": "I'm climbing this vertical ladder.",
+    "command_type": "Clear",
+    "locomotion_mode": "Vertical Ladder Up Climbing"
+  },
+  {
+    "id": "f28a3014-909c-44a8-aa80-854552fac31a",
+    "timestamp_start": "00:17:13.696",
+    "timestamp_end": "00:17:14.835",
+    "command": "I'm walking",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "f15020b1-1205-4c03-b40c-6ad454ace75a",
+    "timestamp_start": "00:17:17.458",
+    "timestamp_end": "00:17:20.565",
+    "command": "I'm going to step over these pipes.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stepping over Pipe"
+  },
+  {
+    "id": "94d742dc-0650-400f-9e04-6cc68f5d284e",
+    "timestamp_start": "00:17:22.794",
+    "timestamp_end": "00:17:23.729",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "75a5b325-4bf1-41d1-a94a-f015cd2c2ac4",
+    "timestamp_start": "00:17:27.876",
+    "timestamp_end": "00:17:30.311",
+    "command": "I'm stepping over this box.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stepping over Box"
+  },
+  {
+    "id": "bd939418-aac1-458a-ac7b-ee2fbc468949",
+    "timestamp_start": "00:17:31.950",
+    "timestamp_end": "00:17:33.106",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "15716428-9177-4cda-9ac9-c90a6315e8ec",
+    "timestamp_start": "00:17:34.606",
+    "timestamp_end": "00:17:35.515",
+    "command": "I'll get lower.",
+    "command_type": "Vague",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "d32b012c-b4dd-43dd-9935-86ca52e8e5c6",
+    "timestamp_start": "00:17:37.696",
+    "timestamp_end": "00:17:38.458",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "722d90da-bdbe-45d2-aa7b-11c317323b43",
+    "timestamp_start": "00:17:41.442",
+    "timestamp_end": "00:17:42.738",
+    "command": "I'm going downstairs.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stair Descension"
+  },
+  {
+    "id": "f7947cf1-b5b4-4645-92cf-2b0149ed20fb",
+    "timestamp_start": "00:17:50.286",
+    "timestamp_end": "00:17:51.221",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "5167c529-e63e-4bbd-9855-b07fffb153f7",
+    "timestamp_start": "00:18:01.975",
+    "timestamp_end": "00:18:03.344",
+    "command": "I'm going upstairs.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stair Ascension"
+  },
+  {
+    "id": "20d90f2c-8f57-4692-b7ab-b06568eb98d4",
+    "timestamp_start": "00:18:13.163",
+    "timestamp_end": "00:18:14.089",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "0e8e805f-eef0-4290-8de2-7c5492fc3011",
+    "timestamp_start": "00:18:17.606",
+    "timestamp_end": "00:18:18.786",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "3b931908-940f-4737-bdf8-2106592a8e34",
+    "timestamp_start": "00:18:27.024",
+    "timestamp_end": "00:18:27.885",
+    "command": "I'm moving.",
+    "command_type": "Vague",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "16ea9649-001a-407c-b034-4fbec2464905",
+    "timestamp_start": "00:18:32.245",
+    "timestamp_end": "00:18:34.180",
+    "command": "I'll step over these pipes.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stepping over Pipe"
+  },
+  {
+    "id": "ad69c799-2f18-477a-a7fe-03a4490894b6",
+    "timestamp_start": "00:18:36.451",
+    "timestamp_end": "00:18:37.205",
+    "command": "I'm heading forward.",
+    "command_type": "Vague",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "903fd9dd-cfe5-4e31-9569-5c13ce40b422",
+    "timestamp_start": "00:18:39.393",
+    "timestamp_end": "00:18:40.229",
+    "command": "I'll bend down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "dbc928da-6f55-44ba-a5cf-5efca5f56202",
+    "timestamp_start": "00:18:44.737",
+    "timestamp_end": "00:18:45.524",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "90af61c2-5b9b-4dad-90a5-bf6574d3d913",
+    "timestamp_start": "00:18:58.663",
+    "timestamp_end": "00:19:01.237",
+    "command": "I'll keep walking.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Stepping over Box"
+  },
+  {
+    "id": "39d9ab24-93d7-450b-b8df-9e0b152b93d0",
+    "timestamp_start": "00:19:03.114",
+    "timestamp_end": "00:19:04.082",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "2c3aa29f-17a9-4c93-92f9-cc9e61d59472",
+    "timestamp_start": "00:19:09.729",
+    "timestamp_end": "00:19:10.573",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "1d112fab-beb2-4e2c-9d87-668bd67378db",
+    "timestamp_start": "00:19:11.983",
+    "timestamp_end": "00:19:13.655",
+    "command": "I'm getting past this again.",
+    "command_type": "Vague",
+    "locomotion_mode": "Stepping over Box"
+  },
+  {
+    "id": "b9bcf73d-0524-4b0e-b4ee-d4cbcafe650c",
+    "timestamp_start": "00:19:15.557",
+    "timestamp_end": "00:19:16.467",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "dd254830-7256-448e-ade5-26dc1a2ead33",
+    "timestamp_start": "00:19:20.803",
+    "timestamp_end": "00:19:22.155",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "c0183c32-3959-4e62-a733-dfdce6523bd5",
+    "timestamp_start": "00:19:27.524",
+    "timestamp_end": "00:19:32.188",
+    "command": "I'm going down using this vertical ladder.",
+    "command_type": "Clear",
+    "locomotion_mode": "Vertical Ladder Down Climbing"
+  },
+  {
+    "id": "6364116b-4dc0-41d5-8df6-7ac1ba891a22",
+    "timestamp_start": "00:19:46.540",
+    "timestamp_end": "00:19:47.712",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "8798507c-2c44-4538-8474-83e5e66cefa1",
+    "timestamp_start": "00:20:09.737",
+    "timestamp_end": "00:20:11.065",
+    "command": "I'm climbing up the vertical ladder.",
+    "command_type": "Clear",
+    "locomotion_mode": "Vertical Ladder Up Climbing"
+  },
+  {
+    "id": "9a19ebef-2d31-4adc-8620-cac68d2bf2fd",
+    "timestamp_start": "00:20:26.425",
+    "timestamp_end": "00:20:27.565",
+    "command": "I'm sitting down.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Vertical Ladder Down Climbing"
+  },
+  {
+    "id": "972b7d9c-2df8-4e0c-9355-5f8156d15869",
+    "timestamp_start": "00:20:35.321",
+    "timestamp_end": "00:20:36.005",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "37fc9eb9-189d-472e-8c41-cb5b4db75513",
+    "timestamp_start": "00:20:39.966",
+    "timestamp_end": "00:20:41.491",
+    "command": "I'm climbing this ladder.",
+    "command_type": "Vague",
+    "locomotion_mode": "Construction Ladder Up Climbing"
+  },
+  {
+    "id": "66a1875f-1018-40b4-976b-8b28aaa2a8cb",
+    "timestamp_start": "00:21:02.024",
+    "timestamp_end": "00:21:02.992",
+    "command": "I'm heading back down from this construction ladder.",
+    "command_type": "Clear",
+    "locomotion_mode": "Construction Ladder Down Climbing"
+  },
+  {
+    "id": "adf3e7c3-4e0e-46d9-92b2-fff23f7693d1",
+    "timestamp_start": "00:21:09.368",
+    "timestamp_end": "00:21:10.172",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "957d627f-cf3c-4d86-87ca-7c6252347a9e",
+    "timestamp_start": "00:21:20.957",
+    "timestamp_end": "00:21:22.268",
+    "command": "I'm heading upstairs.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stair Ascension"
+  },
+  {
+    "id": "fa948ee4-8159-4f1c-ae5c-eb1dddf4d70d",
+    "timestamp_start": "00:21:29.639",
+    "timestamp_end": "00:21:30.647",
+    "command": "I'm moving.",
+    "command_type": "Vague",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "8c00dde6-4a30-4233-9420-68bf413f54fa",
+    "timestamp_start": "00:21:35.213",
+    "timestamp_end": "00:21:35.991",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "0f658ddf-ca52-4765-898a-3d8a075524e3",
+    "timestamp_start": "00:21:37.999",
+    "timestamp_end": "00:21:38.762",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "2f12906a-57f1-43b4-9aae-a5b2cca62d83",
+    "timestamp_start": "00:21:43.508",
+    "timestamp_end": "00:21:44.778",
+    "command": "I'm stepping over these.",
+    "command_type": "Vague",
+    "locomotion_mode": "Stepping over Pipe"
+  },
+  {
+    "id": "2fde357b-646e-45d7-8084-1fa5d969dd8b",
+    "timestamp_start": "00:21:46.942",
+    "timestamp_end": "00:21:47.688",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "b212efbb-6191-4f89-bede-dde1c8cd61a6",
+    "timestamp_start": "00:21:49.917",
+    "timestamp_end": "00:21:50.786",
+    "command": "I'll stand up.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "25249db9-93ab-48c7-9e78-ea6dcd089b63",
+    "timestamp_start": "00:21:53.680",
+    "timestamp_end": "00:21:54.795",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "e64f9b7a-a2d7-4b5e-a664-d9a3eee314e6",
+    "timestamp_start": "00:21:59.279",
+    "timestamp_end": "00:22:01.033",
+    "command": "I'll step over this.",
+    "command_type": "Vague",
+    "locomotion_mode": "Stepping over Box"
+  },
+  {
+    "id": "11887de2-23e0-432b-88c0-9bf3e91e890c",
+    "timestamp_start": "00:22:03.074",
+    "timestamp_end": "00:22:04.246",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "05eba7a2-c605-496d-9442-1f9287e7007c",
+    "timestamp_start": "00:22:06.573",
+    "timestamp_end": "00:22:07.918",
+    "command": "I'm sitting down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Sitting Down"
+  },
+  {
+    "id": "d4686d3d-5333-4567-aff5-66d02dc201e2",
+    "timestamp_start": "00:22:23.515",
+    "timestamp_end": "00:22:24.515",
+    "command": "I'm standing up.",
+    "command_type": "Clear",
+    "locomotion_mode": "Standing Up"
+  },
+  {
+    "id": "ac7a3f6f-4b02-48e5-9afc-1bc0aae6236d",
+    "timestamp_start": "00:22:26.663",
+    "timestamp_end": "00:22:27.581",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "b176c754-1a4a-47d9-9356-66c8fc21e019",
+    "timestamp_start": "00:22:30.073",
+    "timestamp_end": "00:22:32.639",
+    "command": "I have to step over this box again.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stepping over Box"
+  },
+  {
+    "id": "30887018-1d56-4040-b706-232aa7f8d174",
+    "timestamp_start": "00:22:34.712",
+    "timestamp_end": "00:22:35.549",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "6bc26bf2-852e-4652-abb4-778caae68844",
+    "timestamp_start": "00:22:40.360",
+    "timestamp_end": "00:22:41.434",
+    "command": "I'll bend down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "e2f3e330-55aa-4469-93ca-d4bae93293bf",
+    "timestamp_start": "00:22:46.451",
+    "timestamp_end": "00:22:49.992",
+    "command": "I'm descending to the first floor.",
+    "command_type": "Vague",
+    "locomotion_mode": "Vertical Ladder Down Climbing"
+  },
+  {
+    "id": "c64c8570-e0e2-4045-a1bd-a13f8f42af62",
+    "timestamp_start": "00:23:02.762",
+    "timestamp_end": "00:23:04.188",
+    "command": "I'm walking on the ground.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "605354db-f8e0-4b2c-8862-cb899bb95807",
+    "timestamp_start": "00:23:24.803",
+    "timestamp_end": "00:23:27.048",
+    "command": "I'm climbing this vertical ladder again.",
+    "command_type": "Clear",
+    "locomotion_mode": "Vertical Ladder Up Climbing"
+  },
+  {
+    "id": "0687ed11-fc62-4805-b01e-5a786acf29fe",
+    "timestamp_start": "00:23:43.475",
+    "timestamp_end": "00:23:44.582",
+    "command": "I'm going to walk forward.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Vertical Ladder Down Climbing"
+  },
+  {
+    "id": "59f74d24-e2c2-41c1-ac26-0dea48ed4498",
+    "timestamp_start": "00:23:53.906",
+    "timestamp_end": "00:23:54.684",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "13f2550a-0c4c-4661-8a42-8b83c01682f8",
+    "timestamp_start": "00:24:07.975",
+    "timestamp_end": "00:24:09.114",
+    "command": "I'm going upstairs.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stair Ascension"
+  },
+  {
+    "id": "788e1134-af54-4c1b-8ffb-d82ffe599057",
+    "timestamp_start": "00:24:17.303",
+    "timestamp_end": "00:24:18.188",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "b28cb038-5ffd-4102-b007-17e31f55e053",
+    "timestamp_start": "00:24:30.606",
+    "timestamp_end": "00:24:33.131",
+    "command": "I'm moving forward.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Stepping over Pipe"
+  },
+  {
+    "id": "ff9290d9-c10f-4b2a-b8b8-af1d4dc26fc0",
+    "timestamp_start": "00:24:34.778",
+    "timestamp_end": "00:24:38.016",
+    "command": "I'm moving ahead.",
+    "command_type": "Vague",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "15f33bac-f760-49b7-921a-229b4b333cf2",
+    "timestamp_start": "00:24:40.123",
+    "timestamp_end": "00:24:41.885",
+    "command": "I'm climbing down this ladder.",
+    "command_type": "Vague",
+    "locomotion_mode": "Vertical Ladder Down Climbing"
+  },
+  {
+    "id": "6e03e06e-5c22-46e8-b2ec-b806237aa175",
+    "timestamp_start": "00:24:57.278",
+    "timestamp_end": "00:24:58.245",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "b93c52e1-8b94-47a2-a4e5-cc9e6fb76f18",
+    "timestamp_start": "00:25:14.401",
+    "timestamp_end": "00:25:15.770",
+    "command": "I'm going upstairs.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stair Ascension"
+  },
+  {
+    "id": "42dd16ba-727f-4ac9-995c-104ff712ad21",
+    "timestamp_start": "00:25:26.311",
+    "timestamp_end": "00:25:27.164",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "f9353f8e-e52d-47ae-93bd-6864a3375a9e",
+    "timestamp_start": "00:25:31.303",
+    "timestamp_end": "00:25:32.221",
+    "command": "I'll bend down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "86ef17cc-9892-4d0f-a12e-413b10bd8b06",
+    "timestamp_start": "00:25:33.561",
+    "timestamp_end": "00:25:34.922",
+    "command": "I'm moving.",
+    "command_type": "Vague",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "097d89a7-b38e-4355-8797-af9c9463b2d5",
+    "timestamp_start": "00:25:40.090",
+    "timestamp_end": "00:25:42.328",
+    "command": "I'm stepping over these pipes.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stepping over Pipe"
+  },
+  {
+    "id": "252fe1e8-9f61-4cbc-b634-854e698b4006",
+    "timestamp_start": "00:25:44.032",
+    "timestamp_end": "00:25:44.860",
+    "command": "And I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "d6fdd688-92d5-49f5-ab53-c25259604ea3",
+    "timestamp_start": "00:25:47.254",
+    "timestamp_end": "00:25:48.065",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "685c4b99-a95f-44fc-bb55-423ff276c6a3",
+    "timestamp_start": "00:25:50.327",
+    "timestamp_end": "00:25:51.237",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "9b8295fa-d490-4a7e-9507-575a0dc9ac3c",
+    "timestamp_start": "00:25:56.524",
+    "timestamp_end": "00:25:58.713",
+    "command": "I'll step over this box.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stepping over Box"
+  },
+  {
+    "id": "65f85989-3648-43b1-81fc-ccbe5c328a60",
+    "timestamp_start": "00:26:00.598",
+    "timestamp_end": "00:26:01.729",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "04793ae1-5e8d-4e65-8528-c328d5af9e39",
+    "timestamp_start": "00:26:03.589",
+    "timestamp_end": "00:26:04.753",
+    "command": "I'm sitting down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Sitting Down"
+  },
+  {
+    "id": "3eea10da-c082-4bbf-ad3d-75ef45037653",
+    "timestamp_start": "00:26:24.352",
+    "timestamp_end": "00:26:25.377",
+    "command": "I'm standing up.",
+    "command_type": "Clear",
+    "locomotion_mode": "Standing Up"
+  },
+  {
+    "id": "78a12611-dece-4fb1-a865-247298f79c04",
+    "timestamp_start": "00:26:29.458",
+    "timestamp_end": "00:26:30.499",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "cbbe49fe-1160-49c3-9dc5-7864a9a1a0ae",
+    "timestamp_start": "00:26:33.032",
+    "timestamp_end": "00:26:35.106",
+    "command": "I'm stepping over this box.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stepping over Box"
+  },
+  {
+    "id": "c294553a-9fc5-4263-9a7d-5c40e7b82946",
+    "timestamp_start": "00:26:36.958",
+    "timestamp_end": "00:26:38.311",
+    "command": "I'm walking back.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "167ecb76-a396-4da4-93e1-ab8c08bb30c7",
+    "timestamp_start": "00:26:43.721",
+    "timestamp_end": "00:26:44.606",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "074fcf5a-fdd6-4818-95f3-bfe03b2d573f",
+    "timestamp_start": "00:26:49.090",
+    "timestamp_end": "00:26:50.098",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "168aab15-1e2a-436c-9684-14adb1b43e76",
+    "timestamp_start": "00:26:51.565",
+    "timestamp_end": "00:26:53.245",
+    "command": "I'm stepping over these pipes.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stepping over Pipe"
+  },
+  {
+    "id": "8166c3e1-6ab7-4372-b47e-2d59f034e1c4",
+    "timestamp_start": "00:26:54.991",
+    "timestamp_end": "00:26:55.745",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "3b9c687d-5e10-4881-bad0-2970059b590b",
+    "timestamp_start": "00:27:22.033",
+    "timestamp_end": "00:27:22.951",
+    "command": "I'll bend down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "d07b7bd4-b5a2-48b8-9eda-db69acf6afc5",
+    "timestamp_start": "00:27:25.860",
+    "timestamp_end": "00:27:26.811",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "f13299b3-f673-44e8-98fd-a539aa9a7c50",
+    "timestamp_start": "00:28:03.984",
+    "timestamp_end": "00:28:05.074",
+    "command": "I'm heading downstairs.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stair Descension"
+  },
+  {
+    "id": "4314fe38-8bdf-4feb-9967-2985e707a57c",
+    "timestamp_start": "00:28:12.975",
+    "timestamp_end": "00:28:13.754",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "7edef16e-7c74-4dba-8bbd-c5787bb94324",
+    "timestamp_start": "00:29:16.762",
+    "timestamp_end": "00:29:17.836",
+    "command": "I'm climbing this ladder.",
+    "command_type": "Vague",
+    "locomotion_mode": "Construction Ladder Up Climbing"
+  },
+  {
+    "id": "805f0bb9-2696-484d-9841-95daf6730894",
+    "timestamp_start": "00:29:46.983",
+    "timestamp_end": "00:29:49.204",
+    "command": "I'm walking.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Construction Ladder Down Climbing"
+  },
+  {
+    "id": "75d6a5cb-eca8-4b6d-b1fe-1d0fb483c649",
+    "timestamp_start": "00:29:56.275",
+    "timestamp_end": "00:29:57.186",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "1531953f-b6d3-44ab-b582-947b4f8763bb",
+    "timestamp_start": "00:30:02.951",
+    "timestamp_end": "00:30:04.582",
+    "command": "I'm climbing up the vertical ladder.",
+    "command_type": "Clear",
+    "locomotion_mode": "Vertical Ladder Up Climbing"
+  },
+  {
+    "id": "517b06e5-c03b-4a87-bac7-a54d330bb0bb",
+    "timestamp_start": "00:30:17.172",
+    "timestamp_end": "00:30:18.516",
+    "command": "I'm moving down.",
+    "command_type": "Vague",
+    "locomotion_mode": "Vertical Ladder Down Climbing"
+  },
+  {
+    "id": "aea54261-f854-4793-926a-48fc5eb4d32f",
+    "timestamp_start": "00:30:28.057",
+    "timestamp_end": "00:30:28.655",
+    "command": "I'm heading out.",
+    "command_type": "Vague",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "8b7f47ad-4faa-4aac-9367-75e47a605b0c",
+    "timestamp_start": "00:30:32.926",
+    "timestamp_end": "00:30:34.278",
+    "command": "I'm climbing this construction ladder again.",
+    "command_type": "Clear",
+    "locomotion_mode": "Construction Ladder Up Climbing"
+  },
+  {
+    "id": "ec696a01-19b2-412b-b910-fe5b98332df1",
+    "timestamp_start": "00:30:44.524",
+    "timestamp_end": "00:30:45.270",
+    "command": "I'm moving down.",
+    "command_type": "Vague",
+    "locomotion_mode": "Construction Ladder Down Climbing"
+  },
+  {
+    "id": "e5024232-41c9-4f37-965d-f27094c07f43",
+    "timestamp_start": "00:30:52.057",
+    "timestamp_end": "00:30:52.655",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "d5cddf93-988d-44c0-bb1d-34e15d5aa1d3",
+    "timestamp_start": "00:31:04.123",
+    "timestamp_end": "00:31:05.237",
+    "command": "I'm going upstairs.",
+    "command_type": "Clear",
+    "locomotion_mode": "Stair Ascension"
+  },
+  {
+    "id": "ef67952c-b1df-404a-8fa6-12e8c26d3080",
+    "timestamp_start": "00:31:14.451",
+    "timestamp_end": "00:31:15.221",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "2edd5868-1525-42cc-841e-8a63864e2a17",
+    "timestamp_start": "00:31:35.352",
+    "timestamp_end": "00:31:36.499",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "8511ed76-cfa6-4f81-811d-eae22a03dfdd",
+    "timestamp_start": "00:31:40.573",
+    "timestamp_end": "00:31:41.376",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "81f761fb-df94-4ed3-9a45-8db43e045a89",
+    "timestamp_start": "00:31:59.557",
+    "timestamp_end": "00:32:01.123",
+    "command": "I'll continue walking fast.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Stepping over Box"
+  },
+  {
+    "id": "053e5a3d-f080-4c80-bd8c-63dab68ef6ec",
+    "timestamp_start": "00:32:04.049",
+    "timestamp_end": "00:32:04.770",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "4ac1cf6f-0677-4b90-80e2-49f0232fd868",
+    "timestamp_start": "00:32:10.081",
+    "timestamp_end": "00:32:11.073",
+    "command": "I'm bending down.",
+    "command_type": "Clear",
+    "locomotion_mode": "Low Space Navigation"
+  },
+  {
+    "id": "19df20c2-ea75-4bd5-a0be-f412997b453f",
+    "timestamp_start": "00:32:14.352",
+    "timestamp_end": "00:32:15.139",
+    "command": "I'll walk.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "c436feb2-c883-4c8e-9e76-29aa4974be00",
+    "timestamp_start": "00:32:17.573",
+    "timestamp_end": "00:32:19.221",
+    "command": "I'm going forward.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Stepping over Pipe"
+  },
+  {
+    "id": "106d7420-f58d-4441-a45e-8f4dde599205",
+    "timestamp_start": "00:32:21.705",
+    "timestamp_end": "00:32:22.565",
+    "command": "I'll continue forward.",
+    "command_type": "Vague",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "f204e232-7fb1-4732-b26c-f64bc546392f",
+    "timestamp_start": "00:32:35.910",
+    "timestamp_end": "00:32:37.156",
+    "command": "I'm going to lean forward.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Stair Descension"
+  },
+  {
+    "id": "b7a56921-e24a-4bab-867e-96a3c5d3f186",
+    "timestamp_start": "00:32:45.861",
+    "timestamp_end": "00:32:46.557",
+    "command": "I'm walking.",
+    "command_type": "Clear",
+    "locomotion_mode": "Level-Ground Navigation"
+  },
+  {
+    "id": "93c20edd-445b-45c5-bfb6-157a4cbf197f",
+    "timestamp_start": "00:33:02.270",
+    "timestamp_end": "00:33:03.056",
+    "command": "I'm climbing up the vertical ladder.",
+    "command_type": "Clear",
+    "locomotion_mode": "Vertical Ladder Up Climbing"
+  },
+  {
+    "id": "9b96dfe2-77f8-4c92-b536-92654cd70f70",
+    "timestamp_start": "00:33:19.254",
+    "timestamp_end": "00:33:20.049",
+    "command": "I'm stepping over.",
+    "command_type": "Safety-Critical",
+    "locomotion_mode": "Vertical Ladder Down Climbing"
+  }
+]

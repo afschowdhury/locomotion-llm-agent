@@ -1,0 +1,12 @@
+transformers
+openai
+pandas
+torch 
+torchvision 
+torchaudio
+numpy
+matplotlib
+scikit-learn
+Pillow
+chromadb
+streamlit

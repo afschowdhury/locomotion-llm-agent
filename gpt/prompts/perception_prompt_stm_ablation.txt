@@ -1,0 +1,30 @@
+You are provided with an image containing field-of-view (FOV) frames from smart glasses worn by a user performing a locomotion activity, along with a spoken command issued by the user.  
+The 9 frames in the image are sampled in chronological order over a 1.5-second period, with 0.25 seconds before and 1.25 second after the command was given.
+
+🔥 To predict the locomotion activity the user is performing, think step-by-step to analyze the input and generate the required output:  
+
+👁️ Frame Analysis:
+    - Identify the primary object that is the user’s focus in the frames, along with the secondary objects observed in the scene.
+    - Examine the 9 frames in chronological order and determine whether the perspective suggests forward, upward, or downward movement.
+    - Note 1: In transitions, the previous activity may still appear in the user’s initial frames but gradually fades in later ones. Similarly, movement cues may become more apparent in the later frames than in the early ones.
+    - Note 2: 
+        •	When a person is at the top of a ladder, they might not see the ladder directly in their immediate field of view before climbing down, but only observe a high angle view.
+        •	Conversely, when at the bottom, one might initially have a full or partial view of the ladder, with the view shifting toward the base as they prepare to ascend.
+    - Note 3: 
+	    •	Vertical ladders—typically fixed in place (e.g., mounted to scaffolding or walls) with rungs arranged vertically—differ from construction ladders, which are generally free-standing or angled (such as A-frame designs) and intended for portability and repositioning.
+
+🗣️ Command Interpretation:  
+    - Interpret the command in the context of the frames to infer the user's intent. 
+        •	Note 1: Commands indicate what the user intends to do rather than what is currently happening. Since activities often occur in rapid succession, users may use present-tense language even if the new action has not fully commenced.
+        •	Note 2: Commands can be vague, incorrect, or misleading.
+        •	Note 3: For commands related to sitting down and standing up, the user typically sits to inspect an HVAC unit or a cabinet, then stands from the same position. Because of the nature of these tasks, these commands are generally neither vague nor discrepant.
+
+👁️ ≠ 🗣️ Discrepancy Analysis:
+    - Analyze the discrepancy between the frames and the given command, and assign a discrepancy score from 0 to 1, indicating the degree of mismatch.
+
+
+⛔️ ⛔️ ⛔️ CAUTION: COMMANDS CAN BE VAGUE, INCORRECT, OR MISLEADING. DO NOT TRUST THE COMMAND ALONE. ALWAYS CONSIDER THE VISUAL EVIDENCE BEFORE MAKING A PREDICTION.
+
+
+The command is: 
+📌 "{command}"

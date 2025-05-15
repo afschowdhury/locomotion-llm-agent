@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+venv/
+myenv/
+logs/
+*.log
+data/*
+!data/data.json
+.vscode/
+.DS_Store
+results/*
+visuals/*

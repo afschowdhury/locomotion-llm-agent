@@ -1,0 +1,105 @@
+{
+  "type": "object",
+  "name": "perception_data",
+  "schema": "json_schema",
+  "properties": {
+    "reasoning": {
+      "type": "object",
+      "properties": {
+        "chain_of_thought": {
+          "type": "string",
+          "description": "Detailed logical steps explaining the model's analysis and conclusion."
+        },
+        "confidence": {
+          "type": "number",
+          "description": "Numerical confidence in the conclusion's accuracy (0.0-1.0 scale where 1.0 is highest certainty)"
+        }
+      },
+      "required": ["chain_of_thought", "confidence"],
+      "additionalProperties": false
+    },
+    "locomotion_mode": {
+      "type": "string",
+      "description": "Predicted locomotion mode based on user activity.",
+      "enum": [
+        "Construction Ladder Down Climbing",
+        "Construction Ladder Up Climbing",
+        "Vertical Ladder Down Climbing",
+        "Vertical Ladder Up Climbing",
+        "Level-Ground Navigation",
+        "Low Space Navigation",
+        "Sitting Down",
+        "Standing Up",
+        "Stair Ascension",
+        "Stair Descension",
+        "Stepping over Box",
+        "Stepping over Pipe"
+      ]
+    },
+    "scores": {
+      "type": "object",
+      "properties": {
+        "vagueness": {
+          "type": "number",
+          "description": "Represents how vague or unclear the command is, ranging from 0.0 (Clear and easily understandable) to 1.0 (Highly vague and difficult to interpret)."
+        },
+        "discrepancy": {
+          "type": "number",
+          "description": "Represents the mismatch between the observed image and the spoken command, ranging from 0.0 (No mismatch) to 1.0 (Significant mismatch)."
+        },
+        "importance": {
+          "type": "number",
+          "description": "Represents the criticality of the event, considering factors like safety risks or relevance, ranging from 0.0 (Low importance) to 1.0 (Highly critical)."
+        }
+      },
+      "required": ["vagueness", "discrepancy", "importance"],
+      "additionalProperties": false
+    },
+    "scene_context": {
+      "type": "object",
+      "properties": {
+        "environment": {
+          "type": "string",
+          "description": "Examples: 'Industrial', 'Construction', 'Outdoor'."
+        }
+      },
+      "required": ["environment"],
+      "additionalProperties": false
+    },
+    "objects_and_obstacles": {
+      "type": "object",
+      "properties": {
+        "primary_object": {
+          "type": "string",
+          "description": "Primary object present in the scene."
+        },
+        "secondary_objects": {
+          "type": "array",
+          "description": "List of secondary objects present in the scene.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "spatial_relationship": {
+          "type": "string",
+          "description": "Describes the spatial relationship between all objects."
+        }
+      },
+      "required": ["primary_object", "secondary_objects", "spatial_relationship"],
+      "additionalProperties": false
+    },
+    "short_summary": {
+      "type": "string",
+      "description": "A concise overview referencing the user's command and key visual details."
+    }
+  },
+  "required": [
+    "reasoning",
+    "locomotion_mode",
+    "scores",
+    "scene_context",
+    "objects_and_obstacles",
+    "short_summary"
+  ],
+  "additionalProperties": false
+}
